@@ -6,7 +6,7 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
-public func clearConstraints(view: UIView) -> Void {
+public func clearConstraints(_ view: UIView) -> Void {
     view.removeConstraints(view.constraints)
 }
 
@@ -36,8 +36,4 @@ public func pinLeading(to anchor: NSLayoutXAxisAnchor, constant: CGFloat) -> (UI
 
 public func pinTrailing(to anchor: NSLayoutXAxisAnchor, constant: CGFloat) -> (UIView) -> Void {
     return { $0.trailingAnchor.constraint(equalTo: anchor, constant: constant).isActive = true }
-}
-
-public func backgroundColor(_ color: UIColor) -> (UIView) -> Void {
-    return { $0.backgroundColor = color }
 }

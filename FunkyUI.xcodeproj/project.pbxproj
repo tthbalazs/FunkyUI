@@ -24,6 +24,8 @@
 		DF4B70A8217D0AD2000D0B53 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A5217D0AD2000D0B53 /* Colors.swift */; };
 		DF4B70AA217D0EB9000D0B53 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A9217D0EB9000D0B53 /* Grid.swift */; };
 		DF4B70AD217D111C000D0B53 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */; };
+		DF4B70B2217D129C000D0B53 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70B1217D129C000D0B53 /* UIView+Style.swift */; };
+		DF4B70B4217D15A0000D0B53 /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70B3217D15A0000D0B53 /* UILabel+Style.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,8 @@
 		DF4B70A5217D0AD2000D0B53 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		DF4B70A9217D0EB9000D0B53 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
 		DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
+		DF4B70B1217D129C000D0B53 /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		DF4B70B3217D15A0000D0B53 /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +138,7 @@
 				DF4B705C217CEA66000D0B53 /* FunkyUI.h */,
 				DF4B705D217CEA66000D0B53 /* Info.plist */,
 				DF4B70AE217D119A000D0B53 /* Layout functions */,
+				DF4B70B0217D1284000D0B53 /* Styling functions */,
 			);
 			path = FunkyUI;
 			sourceTree = "<group>";
@@ -172,13 +177,30 @@
 		DF4B70AF217D11C4000D0B53 /* Application style */ = {
 			isa = PBXGroup;
 			children = (
+				DF4B70B5217D18CB000D0B53 /* Default style */,
 				DF4B70A3217D0AD2000D0B53 /* ApplicationStyle.swift */,
 				DF4B70A5217D0AD2000D0B53 /* Colors.swift */,
-				DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */,
 				DF4B70A4217D0AD2000D0B53 /* Fonts.swift */,
 				DF4B70A9217D0EB9000D0B53 /* Grid.swift */,
 			);
 			path = "Application style";
+			sourceTree = "<group>";
+		};
+		DF4B70B0217D1284000D0B53 /* Styling functions */ = {
+			isa = PBXGroup;
+			children = (
+				DF4B70B1217D129C000D0B53 /* UIView+Style.swift */,
+				DF4B70B3217D15A0000D0B53 /* UILabel+Style.swift */,
+			);
+			path = "Styling functions";
+			sourceTree = "<group>";
+		};
+		DF4B70B5217D18CB000D0B53 /* Default style */ = {
+			isa = PBXGroup;
+			children = (
+				DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */,
+			);
+			path = "Default style";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -326,8 +348,10 @@
 			files = (
 				DF4B70A7217D0AD2000D0B53 /* Fonts.swift in Sources */,
 				DF4B70AD217D111C000D0B53 /* DefaultStyle.swift in Sources */,
+				DF4B70B2217D129C000D0B53 /* UIView+Style.swift in Sources */,
 				DF4B70A8217D0AD2000D0B53 /* Colors.swift in Sources */,
 				DF4B70A1217D07C0000D0B53 /* Layout+Center.swift in Sources */,
+				DF4B70B4217D15A0000D0B53 /* UILabel+Style.swift in Sources */,
 				DF4B7084217CEBE4000D0B53 /* Layout+Functions.swift in Sources */,
 				DF4B70A6217D0AD2000D0B53 /* ApplicationStyle.swift in Sources */,
 				DF4B70AA217D0EB9000D0B53 /* Grid.swift in Sources */,

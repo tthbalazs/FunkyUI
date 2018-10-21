@@ -21,5 +21,6 @@ class ViewController: UIViewController {
         
         autolayout(label)
         centerIn(view)(label)
+        hardShadow(label)
     }
 }
