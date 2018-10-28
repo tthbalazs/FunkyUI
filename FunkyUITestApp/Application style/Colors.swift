@@ -6,6 +6,8 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
+import UIKit
+
 // MARK: - ColorStyle protocol
 
 public protocol ColorStyle {

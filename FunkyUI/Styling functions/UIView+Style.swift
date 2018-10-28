@@ -6,21 +6,21 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
-public func backgroundColor(_ color: UIColor) -> (UIView) -> Void {
+public func backgroundColorStyle(_ color: UIColor) -> (UIView) -> Void {
     return { $0.backgroundColor = color }
 }
 
-public func alpha(_ alpha: CGFloat) -> (UIView) -> Void {
+public func alphaStyle(_ alpha: CGFloat) -> (UIView) -> Void {
     return { $0.alpha = alpha }
 }
 
-public func clipsToBounds(_ clips: Bool) -> (UIView) -> Void {
+public func clipsToBoundsStyle(_ clips: Bool) -> (UIView) -> Void {
     return { $0.clipsToBounds = clips }
 }
 
 // MARK: - UIView layer manipulation
 
-public func border(color: UIColor, width: CGFloat) -> (UIView) -> Void {
+public func borderStyle(color: UIColor, width: CGFloat) -> (UIView) -> Void {
     return {
         $0.layer.borderColor = color.cgColor
         $0.layer.borderWidth = width
@@ -48,12 +48,12 @@ public func shadow(color: UIColor, offset: CGSize, radius: CGFloat, opacity: Flo
 
 // MARK: Corner radius
 
-public func cornerRadius(_ radius: CGFloat) -> (UIView) -> Void {
+public func cornerRadiusStyle(_ radius: CGFloat) -> (UIView) -> Void {
     return { $0.layer.cornerRadius = radius }
 }
 
 // MARK: Layer masks
 
-public func masksToBounds(_ masks: Bool) -> (UIView) -> Void {
+public func masksToBoundsStyle(_ masks: Bool) -> (UIView) -> Void {
     return { $0.layer.masksToBounds = masks }
 }

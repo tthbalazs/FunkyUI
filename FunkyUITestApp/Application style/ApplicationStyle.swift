@@ -6,6 +6,8 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
+import UIKit
+
 public protocol ApplicationStyle {
     var fonts: FontStyle    { get }
     var colors: ColorStyle  { get }

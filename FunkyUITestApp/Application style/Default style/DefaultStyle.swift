@@ -6,7 +6,11 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
+import UIKit
+
 public struct DefaultStyle: ApplicationStyle {
+    public static let shared = DefaultStyle.init()
+    
     public let fonts: FontStyle
     public let colors: ColorStyle
     public let gridSize: CGFloat

@@ -8,6 +8,8 @@
 
 // MARK: - FontStyle
 
+import UIKit
+
 public protocol FontStyle {
     var h1: UIFont { get }
     var h2: UIFont { get }

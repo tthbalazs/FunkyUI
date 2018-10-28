@@ -48,7 +48,7 @@ public func centerHorizontallyIn(_ view: UIView, offset: CGFloat) -> (UIView) ->
 }
 
 public func centerHorizontallyTo(_ anchor: NSLayoutXAxisAnchor, offset: CGFloat) -> (UIView) -> Void {
-    return { $0.centerXAnchor.constraint(equalTo: anchor, constant: offset) }
+    return { $0.centerXAnchor.constraint(equalTo: anchor, constant: offset).isActive = true }
 }
 
 // MARK: Vertical centering
@@ -62,5 +62,5 @@ public func centerVerticallyIn(_ view: UIView, offset: CGFloat) -> (UIView) -> V
 }
 
 public func centerVerticallyTo(_ anchor: NSLayoutYAxisAnchor, offset: CGFloat) -> (UIView) -> Void {
-    return { $0.centerYAnchor.constraint(equalTo: anchor, constant: offset) }
+    return { $0.centerYAnchor.constraint(equalTo: anchor, constant: offset).isActive = true }
 }

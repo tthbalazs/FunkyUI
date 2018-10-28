@@ -13,19 +13,22 @@
 		DF4B7084217CEBE4000D0B53 /* Layout+Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B7083217CEBE4000D0B53 /* Layout+Functions.swift */; };
 		DF4B708C217CF146000D0B53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B708B217CF146000D0B53 /* AppDelegate.swift */; };
 		DF4B708E217CF146000D0B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B708D217CF146000D0B53 /* ViewController.swift */; };
-		DF4B7091217CF146000D0B53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4B708F217CF146000D0B53 /* Main.storyboard */; };
 		DF4B7093217CF148000D0B53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4B7092217CF148000D0B53 /* Assets.xcassets */; };
 		DF4B7096217CF148000D0B53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4B7094217CF148000D0B53 /* LaunchScreen.storyboard */; };
 		DF4B709B217CF289000D0B53 /* FunkyUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4B7059217CEA66000D0B53 /* FunkyUI.framework */; };
 		DF4B709C217CF289000D0B53 /* FunkyUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DF4B7059217CEA66000D0B53 /* FunkyUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DF4B70A1217D07C0000D0B53 /* Layout+Center.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A0217D07C0000D0B53 /* Layout+Center.swift */; };
-		DF4B70A6217D0AD2000D0B53 /* ApplicationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A3217D0AD2000D0B53 /* ApplicationStyle.swift */; };
-		DF4B70A7217D0AD2000D0B53 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A4217D0AD2000D0B53 /* Fonts.swift */; };
-		DF4B70A8217D0AD2000D0B53 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A5217D0AD2000D0B53 /* Colors.swift */; };
-		DF4B70AA217D0EB9000D0B53 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A9217D0EB9000D0B53 /* Grid.swift */; };
-		DF4B70AD217D111C000D0B53 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */; };
 		DF4B70B2217D129C000D0B53 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70B1217D129C000D0B53 /* UIView+Style.swift */; };
 		DF4B70B4217D15A0000D0B53 /* UILabel+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70B3217D15A0000D0B53 /* UILabel+Style.swift */; };
+		DF598A2A218636D0005C5353 /* Functional.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF598A2721863094005C5353 /* Functional.swift */; };
+		DF598A2C218637A9005C5353 /* Layout+Sizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF598A2B218637A9005C5353 /* Layout+Sizing.swift */; };
+		DF598A2E218637C4005C5353 /* Layout+Pinning.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF598A2D218637C4005C5353 /* Layout+Pinning.swift */; };
+		DF598A2F21863AC0005C5353 /* UILabel+DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70B6217D19E4000D0B53 /* UILabel+DefaultStyle.swift */; };
+		DF598A3021863AC5005C5353 /* DefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */; };
+		DF598A3121863ACB005C5353 /* ApplicationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A3217D0AD2000D0B53 /* ApplicationStyle.swift */; };
+		DF598A3221863ACB005C5353 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A5217D0AD2000D0B53 /* Colors.swift */; };
+		DF598A3321863ACB005C5353 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A4217D0AD2000D0B53 /* Fonts.swift */; };
+		DF598A3421863ACB005C5353 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4B70A9217D0EB9000D0B53 /* Grid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,7 +73,6 @@
 		DF4B7089217CF146000D0B53 /* FunkyUITestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunkyUITestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4B708B217CF146000D0B53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4B708D217CF146000D0B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF4B7090217CF146000D0B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF4B7092217CF148000D0B53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4B7095217CF148000D0B53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4B7097217CF148000D0B53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -82,6 +84,10 @@
 		DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultStyle.swift; sourceTree = "<group>"; };
 		DF4B70B1217D129C000D0B53 /* UIView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
 		DF4B70B3217D15A0000D0B53 /* UILabel+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Style.swift"; sourceTree = "<group>"; };
+		DF4B70B6217D19E4000D0B53 /* UILabel+DefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+DefaultStyle.swift"; sourceTree = "<group>"; };
+		DF598A2721863094005C5353 /* Functional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functional.swift; sourceTree = "<group>"; };
+		DF598A2B218637A9005C5353 /* Layout+Sizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Layout+Sizing.swift"; sourceTree = "<group>"; };
+		DF598A2D218637C4005C5353 /* Layout+Pinning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Layout+Pinning.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +140,6 @@
 		DF4B705B217CEA66000D0B53 /* FunkyUI */ = {
 			isa = PBXGroup;
 			children = (
-				DF4B70AF217D11C4000D0B53 /* Application style */,
 				DF4B705C217CEA66000D0B53 /* FunkyUI.h */,
 				DF4B705D217CEA66000D0B53 /* Info.plist */,
 				DF4B70AE217D119A000D0B53 /* Layout functions */,
@@ -156,11 +161,12 @@
 			isa = PBXGroup;
 			children = (
 				DF4B708B217CF146000D0B53 /* AppDelegate.swift */,
-				DF4B708D217CF146000D0B53 /* ViewController.swift */,
-				DF4B708F217CF146000D0B53 /* Main.storyboard */,
+				DF4B70AF217D11C4000D0B53 /* Application style */,
 				DF4B7092217CF148000D0B53 /* Assets.xcassets */,
-				DF4B7094217CF148000D0B53 /* LaunchScreen.storyboard */,
+				DF598A2721863094005C5353 /* Functional.swift */,
 				DF4B7097217CF148000D0B53 /* Info.plist */,
+				DF4B7094217CF148000D0B53 /* LaunchScreen.storyboard */,
+				DF4B708D217CF146000D0B53 /* ViewController.swift */,
 			);
 			path = FunkyUITestApp;
 			sourceTree = "<group>";
@@ -170,6 +176,8 @@
 			children = (
 				DF4B7083217CEBE4000D0B53 /* Layout+Functions.swift */,
 				DF4B70A0217D07C0000D0B53 /* Layout+Center.swift */,
+				DF598A2B218637A9005C5353 /* Layout+Sizing.swift */,
+				DF598A2D218637C4005C5353 /* Layout+Pinning.swift */,
 			);
 			path = "Layout functions";
 			sourceTree = "<group>";
@@ -199,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				DF4B70AC217D111C000D0B53 /* DefaultStyle.swift */,
+				DF4B70B6217D19E4000D0B53 /* UILabel+DefaultStyle.swift */,
 			);
 			path = "Default style";
 			sourceTree = "<group>";
@@ -335,7 +344,6 @@
 			files = (
 				DF4B7096217CF148000D0B53 /* LaunchScreen.storyboard in Resources */,
 				DF4B7093217CF148000D0B53 /* Assets.xcassets in Resources */,
-				DF4B7091217CF146000D0B53 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,15 +354,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF4B70A7217D0AD2000D0B53 /* Fonts.swift in Sources */,
-				DF4B70AD217D111C000D0B53 /* DefaultStyle.swift in Sources */,
 				DF4B70B2217D129C000D0B53 /* UIView+Style.swift in Sources */,
-				DF4B70A8217D0AD2000D0B53 /* Colors.swift in Sources */,
 				DF4B70A1217D07C0000D0B53 /* Layout+Center.swift in Sources */,
+				DF598A2C218637A9005C5353 /* Layout+Sizing.swift in Sources */,
 				DF4B70B4217D15A0000D0B53 /* UILabel+Style.swift in Sources */,
 				DF4B7084217CEBE4000D0B53 /* Layout+Functions.swift in Sources */,
-				DF4B70A6217D0AD2000D0B53 /* ApplicationStyle.swift in Sources */,
-				DF4B70AA217D0EB9000D0B53 /* Grid.swift in Sources */,
+				DF598A2E218637C4005C5353 /* Layout+Pinning.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,8 +375,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF598A3321863ACB005C5353 /* Fonts.swift in Sources */,
+				DF598A3121863ACB005C5353 /* ApplicationStyle.swift in Sources */,
+				DF598A3021863AC5005C5353 /* DefaultStyle.swift in Sources */,
+				DF598A2F21863AC0005C5353 /* UILabel+DefaultStyle.swift in Sources */,
+				DF598A3221863ACB005C5353 /* Colors.swift in Sources */,
+				DF598A2A218636D0005C5353 /* Functional.swift in Sources */,
 				DF4B708E217CF146000D0B53 /* ViewController.swift in Sources */,
 				DF4B708C217CF146000D0B53 /* AppDelegate.swift in Sources */,
+				DF598A3421863ACB005C5353 /* Grid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,14 +403,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		DF4B708F217CF146000D0B53 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF4B7090217CF146000D0B53 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF4B7094217CF148000D0B53 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -544,6 +548,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FunkyUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -570,6 +575,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FunkyUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -626,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunkyUITestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -644,6 +651,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FunkyUITestApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,6 +6,8 @@
 //  Copyright © 2018. tthbalazs. All rights reserved.
 //
 
+import UIKit
+
 extension CGFloat {
     public static func grid(n: Int, styleKit: ApplicationStyle = DefaultStyle()) -> CGFloat {
         return CGFloat(n) * styleKit.gridSize
